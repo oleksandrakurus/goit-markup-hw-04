@@ -254,9 +254,13 @@ header {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-    .portfolio-subtitle {
-        margin-bottom: 8px;
-    }
+.link:hover,
+.link:focus,
+.link.current,
+.address-link:hover,
+.address-link-focus {
+  color: #404bbf;
+}
 
     .portfolio-text {
         padding-left: 16px;
